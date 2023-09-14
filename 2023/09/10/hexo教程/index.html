@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <title>Hexo</title>
+  <link rel="shortcut icon" href="/images/favicon.ico"> 
+<link rel="stylesheet" href="/css/style.css">
+ 
+<script src="/js/jquery.js"></script>
+ 
+<script src="/js/search.js"></script>
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <article class="article-container">
+  <section class="header-container">
+  <a class="header-title" href="/">
+    <svg t="1693387181307" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4053" width="20" height="20">
+      <path d="M946.5 505L560.1 118.8l-25.9-25.9c-12.3-12.2-32.1-12.2-44.4 0L77.5 505c-12.3 12.3-18.9 28.6-18.8 46 0.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8 12.1-12.1 18.7-28.2 18.7-45.3 0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204z m217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z" p-id="4054" fill="#515151"></path>
+    </svg>
+    <span>Hexo</span>
+  </a>
+</section>
+  <section class="article-body">
+    <div class="post-toc">
+      <h3>本文目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo%E6%90%AD%E5%BB%BAblog%E6%95%99%E7%A8%8B"><span class="toc-text">Hexo搭建blog教程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-text">第一步：初始化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A-%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98"><span class="toc-text">第二步： 配置主题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A-%E7%BC%96%E5%86%99%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9"><span class="toc-text">第三步： 编写博客内容</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E9%83%A8%E7%BD%B2%E5%88%B0%E8%BF%9C%E7%A8%8B"><span class="toc-text">第四步：部署到远程</span></a></li></ol>
+    </div>
+    <div class="post-container">
+      <div class="post-title">
+        <h2 class="title">
+          hexo教程
+        </h2>
+      </div>
+      <div class="post-meta">
+      </div>
+      <div class="post-content">
+        <h2 id="Hexo搭建blog教程"><a href="#Hexo搭建blog教程" class="headerlink" title="Hexo搭建blog教程"></a>Hexo搭建blog教程</h2><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv12633102/">原文点这里</a></p>
+</blockquote>
+<h2 id="第一步：初始化"><a href="#第一步：初始化" class="headerlink" title="第一步：初始化"></a>第一步：初始化</h2><ul>
+<li><p>创建hexo文件夹</p>
+</li>
+<li><p>打开Git Bash Here</p>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- npm install hexo-cli -g  //下载初始化文件</span><br><span class="line">- hexo init blog           //创建blog文件夹</span><br><span class="line">- cd blog                  //进入blog文件夹路径</span><br><span class="line">- npm install</span><br></pre></td></tr></table></figure>
+
+<h2 id="第二步：-配置主题"><a href="#第二步：-配置主题" class="headerlink" title="第二步： 配置主题"></a>第二步： 配置主题</h2><ul>
+<li><p>下载主题： <a target="_blank" rel="noopener" href="https://hexo.io/themes">https://hexo.io/themes</a></p>
+</li>
+<li><p>推荐主题</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery">闪烁之狐</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/ShanaMaid/hexo-theme-shana">shana</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/smackgg/hexo-theme-smackdown/blob/master/READMEzh.md">Smackdown</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/removeif/hexo-theme-amazing">https://github.com/removeif/hexo-theme-amazing</a></li>
+</ul>
+</li>
+<li><p>blog路径下输入命令：git clone 主题http链接  themes&#x2F;主题名称</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/removeif/hexo-theme-amazing.git themes/amazing</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将_config.yml 文件中的theme：改为主题名</p>
+</li>
+<li><p>在_config.yml文件末尾添加如下内容</p>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">type: git</span><br><span class="line">repository: git@github.com:Nbydh/Nbydh.github.io.git</span><br><span class="line">branch: main</span><br></pre></td></tr></table></figure>
+
+<h2 id="第三步：-编写博客内容"><a href="#第三步：-编写博客内容" class="headerlink" title="第三步： 编写博客内容"></a>第三步： 编写博客内容</h2><ul>
+<li><p>新建文档： hexo new “文档标题”</p>
+</li>
+<li><p>用typora或其他markdown编辑器打开，编辑内容，保存</p>
+<blockquote>
+<p>用VScode写Markdown教程：<a target="_blank" rel="noopener" href="https://www.runoob.com/markdown/md-tutorial">https://www.runoob.com/markdown/md-tutorial</a>.</p>
+</blockquote>
+<p><font color="red" size="5" face="楷体">待完成</font>，markdown语法教程超链接(<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43559187/article/details/120913021">csdn文章</a>)</p>
+</li>
+</ul>
+<h2 id="第四步：部署到远程"><a href="#第四步：部署到远程" class="headerlink" title="第四步：部署到远程"></a>第四步：部署到远程</h2><ul>
+<li><p>安装 hexo-deployer-git 插件</p>
+<ul>
+<li><p>npm install hexo-deployer-git –save</p>
+</li>
+<li><p>不安装会报错：</p>
+<p><img src="data:image/png;base64,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" alt="image"></p>
+</li>
+</ul>
+</li>
+<li><p>提交文章</p>
+</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+
+      </div>
+    </div>
+  </section>
+</article>
+<!-- go-top -->
+<a id="goTop" class="go-top" type="button">
+  <svg t="1693380723883" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3999" width="20" height="20">
+    <path d="M825.568 555.328l-287.392-289.28C531.808 259.648 523.488 256.576 515.2 256.64 514.08 256.544 513.12 256 512 256c-4.672 0-9.024 1.088-13.024 2.88-4.032 1.536-7.872 3.872-11.136 7.136l-259.328 258.88c-12.512 12.48-12.544 32.736-0.032 45.248 6.24 6.272 14.432 9.408 22.656 9.408 8.192 0 16.352-3.136 22.624-9.344L480 364.288 480 928c0 17.696 14.336 32 32 32s32-14.304 32-32L544 362.72l236.192 237.728c6.24 6.272 14.496 9.44 22.688 9.44s16.32-3.104 22.56-9.312C838.016 588.128 838.048 567.84 825.568 555.328zM864 192 160 192C142.336 192 128 177.664 128 160s14.336-32 32-32l704 0c17.696 0 32 14.336 32 32S881.696 192 864 192z" fill="#ffffff" p-id="4000"></path>
+  </svg>
+</a>
+<script>
+  goTop.addEventListener('click', function(e) {
+    document.querySelector('.post-container').scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  });
+</script>
+</body>
+
+</html>
